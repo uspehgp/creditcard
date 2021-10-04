@@ -23,10 +23,6 @@
         <button class="button is-warning" type="button" (click)="onReset()">Reset</button>
       </div>
     </form>
-    <hr/>
-    <div>Form Contents: {{ cardForm.value | json }}</div>
-    <div>Form is valid: {{ cardForm.valid }}</div>
-    <div>Errors around name: {{ cardForm.controls.name.errors | json }}</div>
   </div>
 </div>
 
